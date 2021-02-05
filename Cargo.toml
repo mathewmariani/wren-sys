@@ -1,0 +1,15 @@
+[package]
+name = "wren-sys"
+version = "0.3.0"
+authors = ["Mat Mariani <mat.mariani@hotmail.com>"]
+description = "FFI bindings for the Wren programming language"
+readme = "README.md"
+keywords = ["wren", "ffi"]
+edition = "2018"
+build = "build.rs"
+license = "MIT"
+homepage = "https://github.com/mathewmariani/wren-sys"
+repository = "https://github.com/mathewmariani/wren-sys"
+
+[dependencies]
+libc = "0.2"
